@@ -8,14 +8,11 @@ import java.util.Collection;
 @Entity
 @Table(name = "user")
 public class User {
-  @Column(name = "username")
-  private String username;
-
-  @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
-  @Column(name = "id", nullable = false)
   private Long id;
 
+  private String username;
+
+  @Column(name = "username")
   public String getUsername() {
     return username;
   }
@@ -23,18 +20,6 @@ public class User {
   public void setUsername(String username) {
     this.username = username;
   }
-
-  public Long getId() {
-    return id;
-  }
-
-  public void setId(Long id) {
-    this.id = id;
-  }
-
-  private String email;
-
-  private String password;
 
   public String getEmail() {
     return email;
@@ -52,14 +37,28 @@ public class User {
     this.password = password;
   }
 
-  @OneToMany(mappedBy = "owner", orphanRemoval = true)
+  private String email;
+
+  private String password;
+
   private Collection<Car> cars = new ArrayList<>();
 
+  @OneToMany(mappedBy = "owner", orphanRemoval = true)
   public Collection<Car> getCars() {
     return cars;
   }
 
   public void setCars(Collection<Car> cars) {
     this.cars = cars;
+  }
+
+  public void setId(Long id) {
+    this.id = id;
+  }
+
+  @Id
+  @GeneratedValue
+  public Long getId() {
+    return id;
   }
 }
