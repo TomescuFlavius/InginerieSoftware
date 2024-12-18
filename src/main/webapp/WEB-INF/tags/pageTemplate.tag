@@ -11,12 +11,14 @@
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
 </head>
+
 <body>
 <jsp:include page="/WEB-INF/pages/menu.jsp"/>
 <main class="container-fluid mt-5" >
     <jsp:doBody/>
-<main/>
-
-</body>
+</main>
 <jsp:include page="/WEB-INF/pages/footer.jsp"/>
+<script src="${pageContext.request.contextPath}/scripts/form-validation.js"></script>
+</body>
+
 </html>

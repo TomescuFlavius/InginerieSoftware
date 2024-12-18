@@ -7,9 +7,11 @@ public class UserDto {
 
     // Constructor
     public UserDto(String username, String email, long id) {
+
+        this.id = id;
         this.username = username;
         this.email = email;
-        this.id = id;
+
     }
 
     public long getId() {

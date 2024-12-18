@@ -247,7 +247,8 @@
       <workItem from="1733293136118" duration="3768000" />
       <workItem from="1733851646069" duration="1016000" />
       <workItem from="1733930396896" duration="219000" />
-      <workItem from="1733934173408" duration="403000" />
+      <workItem from="1733934173408" duration="3444000" />
+      <workItem from="1734378509856" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -353,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733934535070</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Lab 8.">
+      <option name="closed" value="true" />
+      <created>1733934646867</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733934646867</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,6 +378,7 @@
     <MESSAGE value="ParkingLot 7 (before inserting data into database)" />
     <MESSAGE value="Lab 8 incomplete" />
     <MESSAGE value="Lab 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 8" />
+    <MESSAGE value="Lab 8." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 8." />
   </component>
 </project>
