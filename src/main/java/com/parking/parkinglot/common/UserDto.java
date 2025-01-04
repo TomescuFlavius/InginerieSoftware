@@ -1,12 +1,12 @@
 package com.parking.parkinglot.common;
 
 public class UserDto {
-    private long id;
-    private String username;
-    private String email;
+     long id;
+     String username;
+     String email;
 
     // Constructor
-    public UserDto(String username, String email, long id) {
+    public UserDto(Long id, String username, String email) {
 
         this.id = id;
         this.username = username;
