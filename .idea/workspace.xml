@@ -52,8 +52,8 @@
         <option value="com.intellij.jpb.JpaEntity" />
         <option value="Servlet" />
         <option value="Servlet1" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -249,6 +249,7 @@
       <workItem from="1733930396896" duration="219000" />
       <workItem from="1733934173408" duration="3444000" />
       <workItem from="1734378509856" duration="13000" />
+      <workItem from="1734501890083" duration="5456000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -362,11 +363,49 @@
       <option name="project" value="LOCAL" />
       <updated>1733934646867</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="CRUD for cars">
+      <option name="closed" value="true" />
+      <created>1734505110393</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734505110393</updated>
+    </task>
+    <task id="LOCAL-00016" summary="9 inceput">
+      <option name="closed" value="true" />
+      <created>1734507367218</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1734507367218</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -379,6 +418,8 @@
     <MESSAGE value="Lab 8 incomplete" />
     <MESSAGE value="Lab 8" />
     <MESSAGE value="Lab 8." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 8." />
+    <MESSAGE value="CRUD for cars" />
+    <MESSAGE value="9 inceput" />
+    <option name="LAST_COMMIT_MESSAGE" value="9 inceput" />
   </component>
 </project>
