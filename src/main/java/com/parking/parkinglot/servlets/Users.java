@@ -8,6 +8,7 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
 
 @ServletSecurity(
@@ -29,6 +30,17 @@ public class Users extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse
             response) throws ServletException, IOException {
+        String username = request.getParameter("username");
+        String email = request.getParameter("email");
+        String password = request.getParameter("password");
+        String[] userGroups =
+                request.getParameterValues("user_groups");
+        if (userGroups == null) {
+            userGroups = new String[0];
+        }
+        UserBean.createUser(username, email, password,
+                Arrays.asList(userGroups));
+        response.sendRedirect(request.getContextPath() + "/Users");
     }
     @Inject
     UserBean userBean;
