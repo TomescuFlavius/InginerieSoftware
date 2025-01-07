@@ -1,5 +1,6 @@
 package com.parking.parkinglot.entities;
 
+
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;

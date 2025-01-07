@@ -22,7 +22,7 @@ public class Car {
     private String licensePlate;
 
     private String parkingSpot;
-    private CarPhoto photo;
+    public CarPhoto photo;
 @OneToOne(mappedBy = "car", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     public CarPhoto getPhoto() {
         return photo;

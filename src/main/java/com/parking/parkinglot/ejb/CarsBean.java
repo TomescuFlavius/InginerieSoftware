@@ -117,7 +117,7 @@ public class CarsBean {
         photo.setCar(car);
         entityManager.persist(photo);
     }
-    public CarPhotoDto findPhotoByCarId(Integer carId) {
+    public CarPhotoDto findPhotoByCarId (Integer carId) {
         List<CarPhoto> photos = entityManager
                 .createQuery("SELECT p FROM CarPhoto p where p.car.id = :id", CarPhoto.class)
                 .setParameter("id", carId)
@@ -125,7 +125,7 @@ public class CarsBean {
         if (photos.isEmpty()) {
             return null;
         }
-        CarPhoto photo = photos.get(0); // the first element
+        CarPhoto photo = photos.get(0);
         return new CarPhotoDto(photo.getId(), photo.getFilename(), photo.getFileType(),
                 photo.getFileContent());
     }
