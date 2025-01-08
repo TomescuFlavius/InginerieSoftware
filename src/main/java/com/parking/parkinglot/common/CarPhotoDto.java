@@ -6,6 +6,22 @@ public class CarPhotoDto {
     private String fileType;
     private byte[] fileContent;
 
+    public void setFilename(String filename) {
+        this.filename = filename;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setFileType(String fileType) {
+        this.fileType = fileType;
+    }
+
+    public void setFileContent(byte[] fileContent) {
+        this.fileContent = fileContent;
+    }
+
     public Long getId() {
         return id;
     }
