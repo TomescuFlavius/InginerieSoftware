@@ -12,6 +12,10 @@ public class User {
 
   private String username;
 
+  private String email;
+
+  private String password;
+
   @Column(name = "username")
   public String getUsername() {
     return username;
@@ -36,10 +40,6 @@ public class User {
   public void setPassword(String password) {
     this.password = password;
   }
-
-  private String email;
-
-  private String password;
 
   private Collection<Car> cars = new ArrayList<>();
 

@@ -1,5 +1,5 @@
-package com.parking.parkinglot.entities;
 
+package com.parking.parkinglot.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,18 +7,19 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;
 @Entity
 public class CarPhoto {
-    private Long id;
+    long id;
     String filename;
     String fileType;
     byte[] fileContent;
     Car car;
+
     @Id
-@GeneratedValue
-    public Long getId() {
+    @GeneratedValue
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -45,7 +46,8 @@ public class CarPhoto {
     public void setFileContent(byte[] fileContent) {
         this.fileContent = fileContent;
     }
-@OneToOne
+
+    @OneToOne
     public Car getCar() {
         return car;
     }
