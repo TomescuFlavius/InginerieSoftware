@@ -337,7 +337,7 @@
       <workItem from="1736352827589" duration="32000" />
       <workItem from="1736353339137" duration="1201000" />
       <workItem from="1736488974973" duration="30000" />
-      <workItem from="1736500958822" duration="685000" />
+      <workItem from="1736500958822" duration="2788000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -507,7 +507,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736319117024</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Part 11 updated">
+      <option name="closed" value="true" />
+      <created>1736502026399</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1736502026399</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,6 +558,7 @@
     <MESSAGE value="9 inceput" />
     <MESSAGE value="Added log in and usergroups" />
     <MESSAGE value="Added a stateful EJB and a file upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a stateful EJB and a file upload" />
+    <MESSAGE value="Part 11 updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 11 updated" />
   </component>
 </project>
